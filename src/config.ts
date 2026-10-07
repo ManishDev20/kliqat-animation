@@ -1,0 +1,1 @@
+export const A={black:"#050505",white:"#fff",purple:"#7C3AED",gray:"#A1A1AA",font:"Poppins",logo:"/logo.svg",projects:"/screenshots/projects.jpg",detail:"/screenshots/project-detail.jpg",gallery:"/screenshots/gallery.jpg",assignments:"/screenshots/assignments.jpg"} as const;
