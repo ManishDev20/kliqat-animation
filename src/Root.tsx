@@ -1,1 +1,14 @@
-import React from "react"; import {Composition} from "remotion"; import {KliqAtFilm} from "./KliqAtFilm"; export const Root:React.FC=()=> <><Composition id="KliqAtPrototype" component={KliqAtFilm} durationInFrames={150} fps={30} width={1920} height={1080} defaultProps={{prototype:true}}/><Composition id="KliqAtFilm" component={KliqAtFilm} durationInFrames={540} fps={30} width={1920} height={1080} defaultProps={{prototype:false}}/></>;
+import React from "react";
+import {Composition} from "remotion";
+import {KliqAtFilm} from "./KliqAtFilm";
+
+export const Root: React.FC = () => (
+  <Composition
+    id="KliqAtFilm"
+    component={KliqAtFilm}
+    durationInFrames={600}
+    fps={30}
+    width={1920}
+    height={1080}
+  />
+);
